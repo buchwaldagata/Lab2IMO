@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class GreedyCycleAlgorithm {
+public class GreedyCycleAlgorithm implements Algorithm {
     public List<Map<Integer, Integer>> runAlgorithm(int firstVertex, Long[][] distanceMatrix) {
         List<Integer> unassignedVertices = new ArrayList<>();
         for(int i = 0; i < distanceMatrix.length; i++) {
